@@ -11,6 +11,8 @@ def get_response(user_input: str) -> str:
                 return 'Leeech mabte7kiniich brooo'
         elif 'salam','bonjour','wsh','bjr','slm','hello' in lowered:
                 return 'Salaam brooooo!'
+        elif 'quoi','Quoi','quoi?','Quoi?' in lowered:
+                return 'FEUR'
         else:
                 return choice(['Broo je n\'ai pas compris...',
                                'De quoi tu paaarle?',
